@@ -1,0 +1,23 @@
+# Allowlist for the portfolio source tree
+*
+!*/
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/FILE-MAPPING.md
+!/SHA256SUMS
+!/docs/*.md
+!/sql/*.sql
+!/sql/**/*.sql
+# Local data and temporary SQL
+/exports/
+/data/
+/raw/
+/backups/
+/logs/
+/sql/temp.sql
+**/.env*
+**/*dump*.sql
+**/*backup*.sql
+**/*reserve*.sql
+**/localhost.sql
