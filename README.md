@@ -45,7 +45,7 @@ flowchart LR
 
 Около 32% классифицированных групп формируют около 80% их оборота. Для 2 820 товарных групп период наблюдения составляет менее 12 месяцев, поэтому XYZ-класс не присваивается. Классы X/Y/Z определяются по терцилям коэффициента вариации среди групп с достаточной историей и отражают относительную вариативность продаж, а не абсолютную стабильность спроса. Webasyst отражает только часть офлайн-операций после изменения учёта, а отсутствие продаж может быть связано с отсутствием товара. Классы рассчитаны на всём периоде.
 
-## BI-дашборд
+## BI-дашборд в DataLens
 
 **[Открыть интерактивный дашборд в Yandex DataLens](https://datalens.yandex/s5oqkmvrmwdeb?_share_link=public)**
 
@@ -68,6 +68,31 @@ flowchart LR
     <td width="50%">
       <a href="docs/images/assortment-dashboard.png">
         <img src="docs/images/assortment-dashboard.png" width="100%" alt="Анализ ассортимента">
+      </a>
+    </td>
+  </tr>
+</table>
+
+## BI-дашборд в Tableau
+
+[Открыть интерактивный дашборд Tableau](https://public.tableau.com/views/OlenenkaSalesAssortmentAnalytics/sheet1)
+
+Дашборд построен на проверенных витринах Olenenka DWH и включает две вкладки: «Продажи» и «Анализ ассортимента». Реализованы KPI, динамика продаж, YoY, ABC/XYZ-анализ и детализация SKU.
+
+<table>
+  <tr>
+    <th align="center">Продажи</th>
+    <th align="center">Анализ ассортимента</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="docs/images/tableau-sales.png">
+        <img src="docs/images/tableau-sale.png" width="100%" alt="Tableau — Продажи">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="docs/images/tableau-assortment.png">
+        <img src="docs/images/tableau-assortment.png" width="100%" alt="Tableau — Анализ ассортимента">
       </a>
     </td>
   </tr>
