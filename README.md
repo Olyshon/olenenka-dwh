@@ -53,13 +53,27 @@ flowchart LR
 
 - **Продажи:** динамика суммы и количества завершённых заказов, средний чек, годовые изменения (YoY).
 - **Анализ ассортимента:** ABC/XYZ-сегментация, матрицы количества SKU и товарного оборота, топ-10 SKU и детализация позиций.
-### Вкладка «Продажи»
 
-![Анализ продаж](docs/images/sales-dashboard.png)
+<table>
+  <tr>
+    <th align="center">Продажи</th>
+    <th align="center">Анализ ассортимента</th>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="docs/images/sales-dashboard.png">
+        <img src="docs/images/sales-dashboard.png" width="100%" alt="Продажи">
+      </a>
+    </td>
+    <td width="50%">
+      <a href="docs/images/assortment-dashboard.png">
+        <img src="docs/images/assortment-dashboard.png" width="100%" alt="Анализ ассортимента">
+      </a>
+    </td>
+  </tr>
+</table>
 
-### Вкладка «Анализ ассортимента»
 
-![ABC-XYZ-анализ ассортимента](docs/images/assortment-dashboard.png)
 Источники BI — подготовленные CSV-снимки аналитических витрин. Исходные клиентские данные не публикуются.
 
 ## Запуск
